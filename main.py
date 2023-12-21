@@ -90,8 +90,8 @@ class Calculo:
             if self.calculado == True:
                 self.limpar(valorOperando, frameExpressao)
             elif not self.segundoTermo == '':
-                if int(self.operador) == 'Raiz':
-                    if self.primeiroTermo < 0:
+                if self.operador == 'Raiz':
+                    if int(self.primeiroTermo) < 0:
                         raise ValueError 
                     self.resultado = float(self.primeiroTermo) ** (1 / float(self.segundoTermo))
                 else:
@@ -104,8 +104,6 @@ class Calculo:
                     resultado = f'{self.resultado:.0e}'
                 else:
                     resultado = f'{self.resultado:.2f}'
-                print(resultado)
-                print(self.resultado)
                 expressao = CTkLabel(frameExpressao, text = resultado, font = ('Arial', 25, 'bold'), fg_color = '#dcdcde', text_color = '#000000')
                 expressao.place(x = 275 - ((len(resultado) - 3) * 7), y = 28, anchor = 'center')
                 self.controle = True
