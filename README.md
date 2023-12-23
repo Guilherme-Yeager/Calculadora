@@ -9,7 +9,8 @@
 <ol>
     <li>Escolha o primeiro operando;</li>
     <li>Escolha o operador;</li>
-    <li>Escolha o segundo operando.</li>
+    <li>Escolha o segundo operando;</li>
+    <li>Clique no botão que contém o "=" e veja o resultado.</li>
 </ol>
 <p>Lista de operadores:</p>
 <div>
