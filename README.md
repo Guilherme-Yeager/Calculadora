@@ -46,7 +46,7 @@
     </table>
 </div>
 <h2>3. Objetivo do projeto 🎯</h2>
-<p>Projeto criado para fins de estudo com intuito de desenvolver um simples calculadora.</p>
+<p>Projeto criado para fins de estudo com intuito de desenvolver uma simples calculadora.</p>
 <h2>4. Apresentação da aplicação 🎬</h2>
 <div align="center">
     <video
